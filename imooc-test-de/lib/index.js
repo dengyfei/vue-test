@@ -1,5 +1,8 @@
-const commond = {
-  init() {
-    console.log()
+const command = {
+  init({ option, params }) {
+    console.log(option, params)
   }
 }
+
+
+export default command
